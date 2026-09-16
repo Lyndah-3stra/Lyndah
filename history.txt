@@ -1,0 +1,185 @@
+    1  ls
+    2  cd Downloads/
+    3  ls
+    4  chmod +x chaos.sh  
+    5  chmod +x ubuntu_check\ 1.sh 
+    6  sudo bash chaos.sh 
+    7  sudo iptables -t nat -D OUTPUT -p upd --dport 53 -j REDIRECT --to-ports 5345
+    8  sudo iptables -t nat -D OUTPUT -p upd --dport 53 -j REDIRECT --to-ports 5353
+    9  ls
+   10  cd
+   11  ls
+   12  cd Downloads/
+   13  ls
+   14  chmod +x netchaos.pdf
+   15  chmod+x net_check.sh
+   16  chmod +x net_check.sh 
+   17  ./net_check.sh 
+   18  cd 
+   19  cd /etc
+   20  cd
+   21  cd /etc/sysctl.d/
+   22  ls
+   23  cd
+   24  sysctl net.ipv4.ip_forward
+   25  sudo sysctl net.ipv4.ip_forward=1
+   26  ls
+   27  cd Downloads/
+   28  ls
+   29  ./net_check.sh 
+   30  ls
+   31  chmod +x labnav.sh 
+   32  chmod +x checklabnav.sh 
+   33  ./labnav.sh 
+   34  cd /tmp/nav_lab/
+   35  ls
+   36  cat welcome.txt 
+   37  submit FLAG{lvl01_cat_start}
+   38  cd
+   39  cd Downloads/
+   40  bash checklabnav.sh 
+   41  bash checklabnav.sh 1 FLAG{lvl01_cat_start}
+   42  cd
+   43  cd /tmp/nav_lab/
+   44  ls
+   45  ls -a
+   46  cat confidential mission brief.txt
+   47  cat confidential\ mission\ brief.txt 
+   48  cd
+   49  cd Downloads/
+   50  bash checklabnav.sh 2 FLAG{lvl05_quoted_spaces}
+   51  cat .secret_noyrd
+   52  cd
+   53  cd /tmp/nav_lab/
+   54  cat .secret_notes 
+   55  cd
+   56  cd Downloads/
+   57  bash checklabnav.sh 2 FLAG{lvl02_hidden_dotfile}
+   58  cd
+   59  cd /archive/2026/
+   60  cd archive/2026/
+   61  cd /tmp/nav_lab/
+   62  ls
+   63  pwd
+   64  ls -a
+   65  cd archive/2026/
+   66  ld
+   67  ls
+   68  cat report.txt 
+   69  cd
+   70  cd Downloads/
+   71  bash checklabnav.sh 3 FLAG{lvl03_deep_subfolder}
+   72  cd
+   73  cd /tmp/nav_lab/
+   74  cd chamber/room_a/sub/
+   75  ls
+   76  ls -a
+   77  cat . ..
+   78  cat ../..
+   79  cd
+   80  cd /tmp/nav_lab/
+   81  cd chamber/room_b/
+   82  ls
+   83  cat key.txt
+   84  cd
+   85  cd Downloads/
+   86  bash checklabnav.sh 4 FLAG{lvl04_parent_dotdot}
+   87  cd
+   88  cd /tmp/nav_lab/
+   89  ls
+   90  bash /tmp/nav_lab/
+   91  cat confidential\ mission\ brief.txt 
+   92  cd
+   93  cd Downloads/
+   94  bash 5 FLAG{lvl05_quoted_spaces}
+   95  bash checklabnav.sh 5 FLAG{lvl05_quoted_spaces}
+   96  cd
+   97  cd /tmp/nav_lab/
+   98  ls
+   99  cat -important.log
+  100  cat -i -important.log
+  101  cat -i important.log
+  102  ./important.log
+  103  --
+  104  cat --important.log
+  105  ls
+  106  cat-- -important.log 
+  107  ls -a
+  108  cat-- -important.log 
+  109  cat- -important.log 
+  110  cat-- -important.log 
+  111  cat- -important.log 
+  112  ls -a
+  113  cat-- -important.log 
+  114  cat- -important.log 
+  115  cat -important.log
+  116  cat-- -important.log 
+  117  -- -important.log 
+  118  cat-- -important.log 
+  119  cat -- -important.log
+  120  mkdir my-repo
+  121  cd my-repo
+  122  git init
+  123  bash get init
+  124  sudo apt
+  125  bash git config user.name Lyndah-3stra
+  126  git config user.name Lyndah-3stra
+  127  sudo apt install git
+  128  git config user.name Lyndah-3stra
+  129  pwd
+  130  git init 
+  131  git config user.name Lyndah-3stra
+  132  git config user.email lyndah.estrada@st.metrotech.edu
+  133  echo # My Repo > README.md
+  134  git add README.md
+  135  git "# My Repo" >README.md
+  136  echo "# My Repo" >README.md
+  137  git add README.md
+  138  git commit -m "initial commit"
+  139  git status
+  140  git branch -M main
+  141  git remote add origin https://github.com/<username>/<repo-name>.git
+  142  git remote add origin https://github.com/<Lyndah-3stra>/<Lyndah>.git
+  143  git push -u origin main
+  144  git remote add origin https://github.com/Lyndah-3stra/Lyndah.git
+  145  git push -u origin main
+  146* ssh-keygem -
+  147  shh-keygen -t ed25519 -C "lyndah.estrada@st.metrotech.edu"
+  148  ssh-keygen -t ed25519 -C "lyndah.estrada@st.metrotech.edu"
+  149  eval "$(ssh-agent -s)"
+  150  ssh-add ~/.ssh/id_ed25519
+  151  ssh-add -l
+  152  sudo apt install xclip
+  153  xclip -sel clip < ~/.ssh/id_ed25519.pub
+  154  git branch main
+  155  git branch -M main
+  156* 
+  157  git push -u origin main 
+  158  cat ~/.ssh/id_ed25519.pub 
+  159  git push -u origin main 
+  160  git branch -M main 
+  161  git push -u origin main 
+  162  ssh -T git@github.com
+  163  git branch -M main
+  164  git push -u origin main 
+  165  clear
+  166  ls
+  167  git branch -M main 
+  168  git remote -v
+  169  git remote add origin git@github.com:Lyndah-3stra/Lyndah.git
+  170  git branch -M main 
+  171  git push -u origin main 
+  172  git remote set-url git@github.com:Lyndah-3stra/Lyndah.git
+  173  git remote add origin git@github.com:Lyndah-3stra/Lyndah.git
+  174  git branch -M main
+  175  git push -u origin main
+  176  history | grep ssh-keygen
+  177  eval "$(ssh-agent -s)"
+  178  ssh-add ~/.ssh/id_ed25519
+  179  cat ~/.ssh/id_ed25519.pub 
+  180  git branch -M main
+  181  git push -u origin main
+  182  git remote -v
+  183  git remote set-url origin git@github.com:Lyndah-3stra/Lyndah.git
+  184  git push -u origin main 
+  185  history > history.txt
